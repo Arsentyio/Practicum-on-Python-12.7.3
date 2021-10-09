@@ -6,4 +6,4 @@ deposite_profit = ['%.2f'% elen for elen in (i * money / 100 for i in per_cent_v
 max_deposite_profit = max(deposite_profit)
 #находим максимальное значение
 print(deposite_profit) #выводим список с процентами от каждого банка
-print(max_deposite_profit) #выводим максимальное значение 
+print("Максимальная сумма, которую вы сможете заработать " + max_deposite_profit) #выводим максимальное значение
